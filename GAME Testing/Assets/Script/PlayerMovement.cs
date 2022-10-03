@@ -50,7 +50,7 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", horizontalInput!=0);
         anim.SetBool("grounded", isGrounded());
     
-        if(wallJumpCooldown < 0.2f);
+        
         
     }
 
@@ -75,4 +75,7 @@ public class PlayerMovement : MonoBehaviour
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size,0,new Vector2(transform.localScale.x,0),0.1f,wallLayer);
         return raycastHit.collider != null;
     }
+
+
+
 }
