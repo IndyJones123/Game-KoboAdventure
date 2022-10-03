@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider;
     private float wallJumpCooldown;
+    private float horizontalInput;
     
     //Awake Method berfungsi untuk mengeksekusi script setiap game melakukan load
     private void Awake(){
@@ -50,7 +51,6 @@ public class PlayerMovement : MonoBehaviour
         anim.SetBool("run", horizontalInput!=0);
         anim.SetBool("grounded", isGrounded());
     
-        if(wallJumpCooldown < 0.2f);
         
     }
 
@@ -74,5 +74,9 @@ public class PlayerMovement : MonoBehaviour
         //RayCast disini ialah untuk membuat sebuah kotak penentu keadaan seperti sensor apabila object menyentuh sensor / overlapping maka akan dapat menentukan keadaan menjadi true atau false
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size,0,new Vector2(transform.localScale.x,0),0.1f,wallLayer);
         return raycastHit.collider != null;
+    }
+        public bool canAttack()
+    {
+        return horizontalInput == 0 && isGrounded() && !onWall();
     }
 }
