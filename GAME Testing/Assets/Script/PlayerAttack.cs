@@ -3,8 +3,8 @@ using UnityEngine;
 public class PlayerAttack : MonoBehaviour
 {
     [SerializeField] private float attackCooldown;
-    [SerializeField] private Transform firePoint;
-    [SerializeField] private GameObject[] fireballs;
+    [SerializeField] private Transform FirePoint;
+    [SerializeField] private GameObject[] Fireballs;
 
     private Animator anim;
     private PlayerMovement playerMovement;
@@ -29,16 +29,16 @@ public class PlayerAttack : MonoBehaviour
         anim.SetTrigger("attack");
         cooldownTimer = 0;
 
-        // fireballs[FindFireball()].transform.position = firePoint.position;
-        // fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
+        Fireballs[FindFireball()].transform.position = FirePoint.position;
+        Fireballs[FindFireball()].GetComponent<Projectile>().SetDirection(Mathf.Sign(transform.localScale.x));
     }
-    // private int FindFireball()
-    // {
-    //     for (int i = 0; i < fireballs.Length; i++)
-    //     {
-    //         if (!fireballs[i].activeInHierarchy)
-    //             return i;
-    //     }
-    //     return 0;
-    // }
+    private int FindFireball()
+    {
+        for (int i = 0; i < Fireballs.Length; i++)
+        {
+            if (!Fireballs[i].activeInHierarchy)
+                return i;
+        }
+        return 0;
+    }
 }
