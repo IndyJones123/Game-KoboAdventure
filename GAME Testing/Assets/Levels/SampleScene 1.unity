@@ -1134,7 +1134,7 @@ GameObject:
   - component: {fileID: 652725428}
   - component: {fileID: 652725427}
   - component: {fileID: 652725429}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1909,7 +1909,7 @@ GameObject:
   - component: {fileID: 811899454}
   - component: {fileID: 811899453}
   - component: {fileID: 811899452}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2200,7 +2200,7 @@ GameObject:
   - component: {fileID: 935752598}
   - component: {fileID: 935752597}
   - component: {fileID: 935752596}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2585,7 +2585,7 @@ GameObject:
   - component: {fileID: 1004361825}
   - component: {fileID: 1004361824}
   - component: {fileID: 1004361823}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2718,7 +2718,7 @@ GameObject:
   - component: {fileID: 1065608928}
   - component: {fileID: 1065608927}
   - component: {fileID: 1065608926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4069,7 +4069,7 @@ GameObject:
   - component: {fileID: 1651061380}
   - component: {fileID: 1651061379}
   - component: {fileID: 1651061378}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
