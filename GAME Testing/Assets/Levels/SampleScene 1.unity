@@ -152,7 +152,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 10659703}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &10659708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -431,7 +431,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223024809}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -491,7 +491,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &223024814
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -683,7 +683,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330383339}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &330383344
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -983,7 +983,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 647793959}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1043,7 +1043,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &647793964
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1284,7 +1284,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 664718717}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1344,7 +1344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &664718722
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1518,7 +1518,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760337992}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1578,7 +1578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &760337997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2350,7 +2350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 954025354}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.08, y: -0.13, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &954025359
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3049,7 +3049,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1339892921}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3109,7 +3109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &1339892926
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3217,7 +3217,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359379727}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3277,7 +3277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &1359379732
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3528,7 +3528,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1426655124}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.705, y: -0.254, z: -0.034363918}
+  m_LocalPosition: {x: 4.23, y: -0.11, z: -0.034363918}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3588,7 +3588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b1b33ddfd4b8b140a4352e663026b36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireballspeed: 0
+  fireballspeed: 10
 --- !u!61 &1426655129
 BoxCollider2D:
   m_ObjectHideFlags: 0
