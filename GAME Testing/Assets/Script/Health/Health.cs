@@ -6,6 +6,8 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    [SerializeField] private AudioClip Uek;
+    [SerializeField] private AudioClip mati;
 
     private void Awake()
     {
@@ -18,6 +20,7 @@ public class Health : MonoBehaviour
 
         if (currentHealth > 0)
         {
+            SoundManagerScript.instance.PlaySound(Uek);
             anim.SetTrigger("hurt");
             //iframes
         }
@@ -25,6 +28,7 @@ public class Health : MonoBehaviour
         {
             if (!dead)
             {
+                SoundManagerScript.instance.PlaySound(mati);
                 anim.SetTrigger("die");
                 GetComponent<PlayerMovement>().enabled = false;
                 dead = true;
