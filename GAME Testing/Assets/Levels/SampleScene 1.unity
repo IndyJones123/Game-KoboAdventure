@@ -5075,6 +5075,7 @@ SpriteRenderer:
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &2143076472
 GameObject:
@@ -5261,3 +5262,5 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb4a955c3c001b44abade5e441ed8795, type: 3}
 >>>>>>> parent of b884a6b (Balik awal)
+=======
+>>>>>>> parent of 62e9509 (Update Penambahan Trap ke - 2)
