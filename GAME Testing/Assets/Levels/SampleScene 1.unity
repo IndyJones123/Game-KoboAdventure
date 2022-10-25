@@ -1034,7 +1034,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 636862627}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FirePoint
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1778,7 +1778,7 @@ GameObject:
   - component: {fileID: 795017240}
   - component: {fileID: 795017242}
   - component: {fileID: 795017246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -2002,8 +2002,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  Uek: {fileID: 8300000, guid: 1c6950040ed583b4a905edf1a04e4ef5, type: 3}
-  mati: {fileID: 8300000, guid: 21a9e66d4763c484f918ea392de5c1e9, type: 3}
+  iFramesDuration: 0
+  numberOfFlashes: 0
 --- !u!114 &795017246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,8 +2017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 0
-  Uek: {fileID: 0}
-  mati: {fileID: 0}
+  iFramesDuration: 0
+  numberOfFlashes: 0
 --- !u!1 &811899450
 GameObject:
   m_ObjectHideFlags: 0
@@ -4975,7 +4975,7 @@ GameObject:
   - component: {fileID: 2005382510}
   - component: {fileID: 2005382512}
   - component: {fileID: 2005382513}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
