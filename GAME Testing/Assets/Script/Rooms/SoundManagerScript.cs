@@ -22,5 +22,5 @@ public class SoundManagerScript : MonoBehaviour
     {
         source.PlayOneShot(_sound);
     }
-
+    
 }
