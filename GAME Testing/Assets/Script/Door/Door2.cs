@@ -3,33 +3,33 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Door1 : MonoBehaviour
+public class Door2 : MonoBehaviour
 {
     private bool open = false;
-    private int nextSceneToLoad;
+    int prevSceneToLoad;
     // Start is called before the first frame update
     public void start()
     {
-        nextSceneToLoad = SceneManager.GetActiveScene().buildIndex + 1;
+        prevSceneToLoad = SceneManager.GetActiveScene().buildIndex;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (open == true)
         {
-            SceneManager.LoadScene("Dunia2");
+            SceneManager.LoadScene("PreStory");
         }    
     }
 
     void Update()
     {
         if (Input.GetKeyDown (KeyCode.P)) {
-            open = true;
             gameObject.GetComponent<Renderer>().enabled = true;
+            open = true;
         }
         if (Input.GetKeyUp (KeyCode.P)) {
-            open = false;
             gameObject.GetComponent<Renderer>().enabled = false;
+            open = false;
         }
     }
 }
