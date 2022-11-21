@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Enemy
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - Ground
   - Wall
   - Player
+  - NPC
   - Enemy
-  - 
   - 
   - 
   - 
