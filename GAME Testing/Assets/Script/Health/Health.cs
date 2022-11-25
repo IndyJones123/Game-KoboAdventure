@@ -1,56 +1,84 @@
 using UnityEngine;
 using System.Collections;
 
-public class Health : MonoBehaviour
+public class Health : EnemyDamage
 {
     [Header ("Health")]
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     private Animator anim;
-    private bool dead;
     [SerializeField] private AudioClip Uek;
     [SerializeField] private AudioClip mati;
+    [SerializeField] private AudioClip sakitboss;
+    [SerializeField] private AudioClip Rage;
+    [SerializeField] private AudioClip Rage2;
+    
 
     [Header ("iFrames")]
     [SerializeField]private float iFramesDuration;
     [SerializeField]private int numberOfFlashes;
     private SpriteRenderer spriteRend;
+    public GameObject Bazo;
+    public GameObject BazoBesar;
+    public GameObject BazoBesarGlinding;
+    public GameObject PintuRahasia;
+
 
     private void Awake()
     {
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
+        
     }
     public void TakeDamage(float _damage)
     {
         currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
 
-        if (currentHealth > 0)
+        if(currentHealth == 30)
         {
-            SoundManagerScript.instance.PlaySound(Uek);
-            anim.SetTrigger("hurt");
+            anim.SetTrigger("rage");
+            SoundManagerScript.instance.PlaySound(Rage);
             StartCoroutine(Invunerability());
+            Bazo.SetActive(true);
         }
-        else
+        if(currentHealth == 10)
         {
-            if (!dead)
-            {
-                SoundManagerScript.instance.PlaySound(mati);
-                anim.SetTrigger("die");
+            anim.SetTrigger("rage2");
+            SoundManagerScript.instance.PlaySound(Rage2);
+            StartCoroutine(Invunerability());
+            BazoBesar.SetActive(false);
+            BazoBesarGlinding.SetActive(true);
+        }
+        if(currentHealth %5 == 0 && currentHealth %10 != 0)
+        {
+            anim.SetTrigger("hurts");
+            SoundManagerScript.instance.PlaySound(sakitboss);
+        }
+        if(currentHealth > 0)
+        {
+            anim.SetTrigger("hurt");
+            SoundManagerScript.instance.PlaySound(Uek);
+        }
+
+        
+        if (currentHealth == 0)
+        {
+            SoundManagerScript.instance.PlaySound(mati);
+            PintuRahasia.SetActive(false);
+            anim.SetTrigger("die");
                 //Player
-                if(GetComponent<PlayerMovement>() != null)
-                    GetComponent<PlayerMovement>().enabled = false;
+            if(GetComponent<PlayerMovement>() != null)
+                GetComponent<PlayerMovement>().enabled = false;
 
                 //Enemy
-                if(GetComponent<EnemyPatrol>() != null)
-                    GetComponentInParent<EnemyPatrol>().enabled = false;
-                    
-                if(GetComponent<MeleeEnemy>() != null)
-                    GetComponent<MeleeEnemy>().enabled = false;
-
-                dead = true;
-            }
+            if(GetComponent<EnemyPatrol>() != null)
+                GetComponentInParent<EnemyPatrol>().enabled = false;
+                
+            if(GetComponent<MeleeEnemy>() != null)
+                GetComponent<MeleeEnemy>().enabled = false;
+            
+            Destroy(gameObject,3);
         }
     }
     public void AddHealth(float _value)

@@ -7,6 +7,9 @@ TagManager:
   - Ground
   - Enemy
   - NPC
+  - Ladder
+  - Teleporter
+  - Boss
   layers:
   - Default
   - TransparentFX
@@ -19,7 +22,7 @@ TagManager:
   - Player
   - NPC
   - Enemy
-  - 
+  - Ladder
   - 
   - 
   - 

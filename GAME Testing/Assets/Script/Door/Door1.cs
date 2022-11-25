@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Door1 : MonoBehaviour
 {
-    private bool open = false;
+    private bool open = true;
     private int nextSceneToLoad;
     // Start is called before the first frame update
     public void start()
@@ -21,15 +21,4 @@ public class Door1 : MonoBehaviour
         }    
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown (KeyCode.P)) {
-            open = true;
-            gameObject.GetComponent<Renderer>().enabled = true;
-        }
-        if (Input.GetKeyUp (KeyCode.P)) {
-            open = false;
-            gameObject.GetComponent<Renderer>().enabled = false;
-        }
-    }
 }
