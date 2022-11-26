@@ -1015,7 +1015,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite3_23: 21300046
+      Sprite3_32: 21300064
       Sprite3_15: 21300030
       Sprite3_22: 21300044
       Sprite3_1: 21300002
@@ -1051,7 +1051,7 @@ TextureImporter:
       Sprite3_20: 21300040
       Sprite3_13: 21300026
       Sprite3_17: 21300034
-      Sprite3_32: 21300064
+      Sprite3_23: 21300046
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -8,6 +8,7 @@ public class Inspect : MonoBehaviour
 {
     [SerializeField]
     private TMP_Text pickUpText;
+    public GameObject deleteobject;
 
     private bool pickUpAllowed;
 
@@ -44,6 +45,7 @@ public class Inspect : MonoBehaviour
 
     private void PickUp()
     {
+        Destroy(deleteobject);
         Destroy(gameObject);
     }
 }

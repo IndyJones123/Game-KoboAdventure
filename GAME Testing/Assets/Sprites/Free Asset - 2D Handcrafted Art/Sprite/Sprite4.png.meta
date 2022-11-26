@@ -1399,7 +1399,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite4_21: 21300042
+      Sprite4_18: 21300036
       Sprite4_50: 21300100
       Sprite4_10: 21300020
       Sprite4_12: 21300024
@@ -1451,7 +1451,7 @@ TextureImporter:
       Sprite4_31: 21300062
       Sprite4_47: 21300094
       Sprite4_14: 21300028
-      Sprite4_18: 21300036
+      Sprite4_21: 21300042
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

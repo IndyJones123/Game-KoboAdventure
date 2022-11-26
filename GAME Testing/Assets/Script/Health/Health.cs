@@ -78,7 +78,7 @@ public class Health : EnemyDamage
             if(GetComponent<MeleeEnemy>() != null)
                 GetComponent<MeleeEnemy>().enabled = false;
             
-            Destroy(gameObject,3);
+            Destroy(gameObject,2);
         }
     }
     public void AddHealth(float _value)
