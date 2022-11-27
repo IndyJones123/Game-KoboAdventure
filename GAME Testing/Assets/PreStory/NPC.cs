@@ -11,6 +11,8 @@ public class NPC : MonoBehaviour
     private int index;
 
     public GameObject contButton;
+    public GameObject TriggerBlok;
+    public GameObject Rabbit;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -62,6 +64,7 @@ public class NPC : MonoBehaviour
     {
 
         contButton.SetActive(false);
+        
 
         if(index < dialogue.Length - 1)
         {
@@ -72,6 +75,9 @@ public class NPC : MonoBehaviour
         else
         {
             zeroText();
+            TriggerBlok.SetActive(false);
+            Rabbit.SetActive(true);
+            Destroy(gameObject);
         }
     }
 

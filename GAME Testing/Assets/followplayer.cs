@@ -2,13 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ParalexBackGround : MonoBehaviour
+public class followplayer : MonoBehaviour
 {
     public Transform target;
  
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(target.position.x, target.position.y+2, 0);
+        transform.position = new Vector3(target.position.x, target.position.y+1.5f, +10);
     }
 }

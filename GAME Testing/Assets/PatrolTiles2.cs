@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PatrolTiles : MonoBehaviour
+public class PatrolTiles2 : MonoBehaviour
 {
     [Header ("Patrol Points")]
     [SerializeField] private Transform leftEdge;
@@ -36,7 +36,7 @@ public class PatrolTiles : MonoBehaviour
 
     private void Update()
     {
-        if (movingLeft)
+        if (!movingLeft)
         {
             if (enemy.position.x >= leftEdge.position.x)
                 MoveInDirection(-1);
@@ -66,7 +66,7 @@ public class PatrolTiles : MonoBehaviour
         idleTimer = 0;
 
 
-        // Make enemy face direction
+        //Make enemy face direction
         // enemy.localScale = new Vector3(Mathf.Abs(initScale.x) * _direction,
         //     initScale.y, initScale.z);
 
