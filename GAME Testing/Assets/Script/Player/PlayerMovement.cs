@@ -23,6 +23,10 @@ public class PlayerMovement : MonoBehaviour
     }
     //Update Method digunakan untuk melakukan pergerakan arah pada body player mengunakan vector 
     private void Update(){
+        if(DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
         float horizontalInput = Input.GetAxis("Horizontal");
 
         //Vector2 Digunakan untuk memberikan vector pada karakter 2D apabila menggunakan Vector3 nantinya digunakan untuk karakter 3D dengan vektor x
