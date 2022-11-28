@@ -3,21 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPC : MonoBehaviour
+public class FangNPC : MonoBehaviour
 {
     public GameObject dialoguePanel;
+    public GameObject TriggerNewScene;
     public Text dialogueText;
     public string[] dialogue;
     private int index;
-
+    private Animator anim;
     public GameObject contButton;
-    public GameObject TriggerBlok;
     public GameObject Rabbit;
+    [SerializeField] private AudioClip KuasaBayang;
     
     public float wordSpeed;
     public bool playerIsClose;
 
-
+    void Awake()
+    {
+        anim = GetComponent<Animator>();
+    }
     // Update is called once per frame
     void Update()
     {
@@ -76,8 +80,10 @@ public class NPC : MonoBehaviour
         else
         {
             zeroText();
-            TriggerBlok.SetActive(false);
             Rabbit.SetActive(true);
+            TriggerNewScene.SetActive(true);
+            anim.SetTrigger("KuasaBayang");
+            SoundManagerScript.instance.PlaySound(KuasaBayang);
         }
     }
 

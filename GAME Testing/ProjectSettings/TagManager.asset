@@ -11,6 +11,8 @@ TagManager:
   - Teleporter
   - Boss
   - pushable
+  - Penculik
+  - Penculik2
   layers:
   - Default
   - TransparentFX
@@ -25,8 +27,8 @@ TagManager:
   - Enemy
   - Ladder
   - pushable
-  - 
-  - 
+  - Penculik
+  - Penculik2
   - 
   - 
   - 
