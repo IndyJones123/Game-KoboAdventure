@@ -13,6 +13,9 @@ TagManager:
   - pushable
   - Penculik
   - Penculik2
+  - ground
+  - nextLine
+  - spike
   layers:
   - Default
   - TransparentFX
