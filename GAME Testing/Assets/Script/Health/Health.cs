@@ -22,6 +22,7 @@ public class Health : EnemyDamage
     public GameObject BazoBesar;
     public GameObject BazoBesarGlinding;
     public GameObject PintuRahasia;
+    public GameObject RetryAndBackToMenu;
 
 
     private void Awake()
@@ -70,6 +71,7 @@ public class Health : EnemyDamage
                 //Player
             if(GetComponent<PlayerMovement>() != null)
                 GetComponent<PlayerMovement>().enabled = false;
+                RetryAndBackToMenu.SetActive(true);
 
                 //Enemy
             if(GetComponent<EnemyPatrol>() != null)

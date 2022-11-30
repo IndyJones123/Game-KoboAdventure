@@ -7,6 +7,7 @@ public class Pekora : MonoBehaviour
 {
     public GameObject dialoguePanel;
     // public GameObject Player;
+    [SerializeField] private AudioClip ketawa;
     public GameObject Fang;
     public GameObject Penculik;
     public Text dialogueText;
@@ -115,6 +116,7 @@ public class Pekora : MonoBehaviour
             // movementplayer = Player.GetComponent<PlayerMovement>();
             // movementplayer.enabled = false;
             // animation.SetTrigger("Monster");
+            SoundManagerScript.instance.PlaySound(ketawa);
             Penculik.SetActive(true);
             Destroy(dialoguePanel,3);
             Destroy(gameObject,2);
