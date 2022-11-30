@@ -68,6 +68,7 @@ public class Health : EnemyDamage
             SoundManagerScript.instance.PlaySound(mati);
             PintuRahasia.SetActive(false);
             anim.SetTrigger("die");
+            Destroy(gameObject,2);
                 //Player
             if(GetComponent<PlayerMovement>() != null)
                 GetComponent<PlayerMovement>().enabled = false;
@@ -80,7 +81,7 @@ public class Health : EnemyDamage
             if(GetComponent<MeleeEnemy>() != null)
                 GetComponent<MeleeEnemy>().enabled = false;
             
-            Destroy(gameObject,2);
+            Destroy(gameObject,1.5f);
         }
     }
     public void AddHealth(float _value)
