@@ -56913,6 +56913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UiRestard&BackToMenu
       objectReference: {fileID: 0}
+    - target: {fileID: 3274496096411953878, guid: 3fc16fe0c6fd3a94b87b3884b2755a16, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3274496096439528376, guid: 3fc16fe0c6fd3a94b87b3884b2755a16, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

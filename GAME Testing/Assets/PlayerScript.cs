@@ -1,9 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
-
+    
+    public Animator anim;
     public float JumpForce;
     float score;
 
@@ -30,13 +32,18 @@ public class PlayerScript : MonoBehaviour
             {
                 RB.AddForce(Vector2.up * JumpForce);
                 isGrounded = false;
+                anim.SetTrigger("jump");
             }
         }    
         if(isAlive)
         {
-            score += Time.deltaTime * 4;
+            score += Time.deltaTime * 2500;
             ScoreTxt.text = "SCORE : " + score.ToString("F");
 
+        }
+        if(score==696969)
+        {
+            SceneManager.LoadScene("Dunia3");
         }
     }
 
