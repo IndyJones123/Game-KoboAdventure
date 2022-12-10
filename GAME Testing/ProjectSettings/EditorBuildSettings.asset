@@ -9,6 +9,21 @@ EditorBuildSettings:
     path: Assets/Levels/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Levels/PreStory.unity
+    guid: 3bf58cf25d8aacb4fb011f36121c6580
+  - enabled: 1
+    path: Assets/Levels/Dunia2.unity
+    guid: 85026c3bd3f68744fa8e9206910b7f8d
+  - enabled: 1
+    path: Assets/Levels/Dunia3.unity
+    guid: 1ff7e8544015e3d44844a3ed1f9c2136
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
     path: Assets/Levels/SampleScene 1.unity
     guid: 9ddce893b375a074891d3db72d2d7f68
+  - enabled: 1
+    path: Assets/Levels/PreStoryRestard.unity
+    guid: 3861242b1877fa348a96043ae075b042
   m_configObjects: {}
