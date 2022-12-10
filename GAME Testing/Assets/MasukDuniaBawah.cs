@@ -17,7 +17,7 @@ public class MasukDuniaBawah : MonoBehaviour
     {
         if (open == true)
         {
-            SceneManager.LoadScene("Dunia2");
+            SceneManager.LoadScene("EndlessGame");
         }    
     }
 }
