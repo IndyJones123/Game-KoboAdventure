@@ -7,6 +7,9 @@ public class Health : EnemyDamage
     [SerializeField] private float startingHealth;
     public float currentHealth { get; private set; }
     private Animator anim;
+
+    private bool dead;
+
     [SerializeField] private AudioClip Uek;
     [SerializeField] private AudioClip mati;
     [SerializeField] private AudioClip sakitboss;
@@ -30,7 +33,7 @@ public class Health : EnemyDamage
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
-        
+
     }
     public void TakeDamage(float _damage)
     {
@@ -59,18 +62,28 @@ public class Health : EnemyDamage
         if(currentHealth > 0)
         {
             anim.SetTrigger("hurt");
+
+            StartCoroutine(Invunerability());
+
             SoundManagerScript.instance.PlaySound(Uek);
+
         }
 
         
         if (currentHealth == 0)
         {
+
+            if (!dead)
+            {
+                anim.SetTrigger("die");
+
             SoundManagerScript.instance.PlaySound(mati);
             PintuRahasia.SetActive(false);
             anim.SetTrigger("die");
             Destroy(gameObject,2);
                 //Player
             if(GetComponent<PlayerMovement>() != null)
+
                 GetComponent<PlayerMovement>().enabled = false;
                 RetryAndBackToMenu.SetActive(true);
 
@@ -93,12 +106,15 @@ public class Health : EnemyDamage
     {
         Physics2D.IgnoreLayerCollision(8, 9, true);
         for(int i = 0; i < numberOfFlashes; i++)
+
         {
             spriteRend.color = new Color(1, 0, 0, 0.5f);
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
             spriteRend.color = Color.white;
             yield return new WaitForSeconds(iFramesDuration / (numberOfFlashes * 2));
         }
+
         Physics2D.IgnoreLayerCollision(8, 9, false);
     } 
+
 }
