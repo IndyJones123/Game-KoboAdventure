@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/PreStoryRestard.unity
     guid: 3861242b1877fa348a96043ae075b042
+  - enabled: 1
+    path: Assets/Levels/EndlessGame.unity
+    guid: e475a4ba9b91a82498302d365f6847b0
   m_configObjects: {}
