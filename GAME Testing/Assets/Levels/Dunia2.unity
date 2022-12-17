@@ -4807,7 +4807,7 @@ GameObject:
   - component: {fileID: 186911210}
   m_Layer: 8
   m_Name: Fang
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14882,11 +14882,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5862984273037117995, guid: 07973560903842a4286eae9ff0d6ac16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 103.09
+      value: -14.2
       objectReference: {fileID: 0}
     - target: {fileID: 5862984273037117995, guid: 07973560903842a4286eae9ff0d6ac16, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.36
+      value: -2.8
       objectReference: {fileID: 0}
     - target: {fileID: 5862984273037117995, guid: 07973560903842a4286eae9ff0d6ac16, type: 3}
       propertyPath: m_LocalPosition.z

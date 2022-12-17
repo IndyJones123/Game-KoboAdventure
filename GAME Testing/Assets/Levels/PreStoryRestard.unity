@@ -278,7 +278,7 @@ GameObject:
   - component: {fileID: 42237515}
   m_Layer: 10
   m_Name: Dinding
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -362,7 +362,7 @@ GameObject:
   - component: {fileID: 58946761}
   m_Layer: 10
   m_Name: Dinding (15)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -840,7 +840,7 @@ GameObject:
   - component: {fileID: 95909774}
   m_Layer: 10
   m_Name: Dinding (16)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 100729217}
   m_Layer: 10
   m_Name: Dinding (26)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1571,7 +1571,7 @@ GameObject:
   - component: {fileID: 163994396}
   m_Layer: 10
   m_Name: Dinding (68)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1655,7 +1655,7 @@ GameObject:
   - component: {fileID: 179515654}
   m_Layer: 10
   m_Name: Dinding (51)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2247,7 +2247,7 @@ GameObject:
   - component: {fileID: 251898844}
   m_Layer: 10
   m_Name: Dinding (59)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2331,7 +2331,7 @@ GameObject:
   - component: {fileID: 252461599}
   m_Layer: 10
   m_Name: Dinding (70)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2546,7 +2546,7 @@ GameObject:
   - component: {fileID: 263534979}
   m_Layer: 10
   m_Name: Dinding (55)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2879,7 +2879,7 @@ GameObject:
   - component: {fileID: 295566759}
   m_Layer: 10
   m_Name: Dinding (63)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2963,7 +2963,7 @@ GameObject:
   - component: {fileID: 299163818}
   m_Layer: 10
   m_Name: Dinding (29)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3047,7 +3047,7 @@ GameObject:
   - component: {fileID: 306641739}
   m_Layer: 10
   m_Name: Dinding (39)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3198,7 +3198,7 @@ GameObject:
   - component: {fileID: 325957884}
   m_Layer: 10
   m_Name: Dinding (69)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3395,7 +3395,7 @@ GameObject:
   - component: {fileID: 359127807}
   m_Layer: 10
   m_Name: Dinding (64)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4128,7 +4128,7 @@ GameObject:
   - component: {fileID: 395525848}
   m_Layer: 10
   m_Name: Dinding (43)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4296,7 +4296,7 @@ GameObject:
   - component: {fileID: 399330724}
   m_Layer: 10
   m_Name: Dinding (33)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4846,7 +4846,7 @@ GameObject:
   - component: {fileID: 434075237}
   m_Layer: 10
   m_Name: Dinding (3)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4930,7 +4930,7 @@ GameObject:
   - component: {fileID: 451198915}
   m_Layer: 10
   m_Name: Dinding (44)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5094,7 +5094,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!95 &472402788
 Animator:
   serializedVersion: 4
@@ -5223,7 +5223,7 @@ GameObject:
   - component: {fileID: 472712086}
   m_Layer: 10
   m_Name: Dinding (40)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5307,7 +5307,7 @@ GameObject:
   - component: {fileID: 473959359}
   m_Layer: 10
   m_Name: Dinding (12)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5570,7 +5570,7 @@ GameObject:
   - component: {fileID: 494541969}
   m_Layer: 10
   m_Name: Dinding (56)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5665,6 +5665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  healthBar: {fileID: 1794921114}
   startingHealth: 50
   Uek: {fileID: 0}
   mati: {fileID: 8300000, guid: 6fd2f5e696c4fcb40b4c28d6d7be15b7, type: 3}
@@ -5673,12 +5674,12 @@ MonoBehaviour:
   Rage2: {fileID: 8300000, guid: 3f7e1cc6757c4e648926d5fdd186919a, type: 3}
   iFramesDuration: 5
   numberOfFlashes: 2
+  Self: {fileID: 39637394}
   Bazo: {fileID: 1414176080}
   BazoBesar: {fileID: 867855862}
   BazoBesarGlinding: {fileID: 1231703294}
   PintuRahasia: {fileID: 1966238385}
-  RetryAndBackToMenu: {fileID: 0}
-  healthBar: {fileID: 1794921114}
+  RetryAndBackToMenu: {fileID: 1704745190}
 --- !u!1 &522622896
 GameObject:
   m_ObjectHideFlags: 0
@@ -5775,7 +5776,7 @@ GameObject:
   - component: {fileID: 523265302}
   m_Layer: 10
   m_Name: Dinding (17)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5930,7 +5931,7 @@ GameObject:
   - component: {fileID: 527268977}
   m_Layer: 10
   m_Name: Dinding (10)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6173,7 +6174,7 @@ GameObject:
   - component: {fileID: 563308922}
   m_Layer: 10
   m_Name: Dinding (11)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6257,7 +6258,7 @@ GameObject:
   - component: {fileID: 566792965}
   m_Layer: 10
   m_Name: Dinding (36)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6434,7 +6435,7 @@ GameObject:
   - component: {fileID: 581610062}
   m_Layer: 10
   m_Name: Dinding (27)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6518,7 +6519,7 @@ GameObject:
   - component: {fileID: 585971462}
   m_Layer: 10
   m_Name: Dinding (7)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6602,7 +6603,7 @@ GameObject:
   - component: {fileID: 586734019}
   m_Layer: 10
   m_Name: Dinding (18)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6686,7 +6687,7 @@ GameObject:
   - component: {fileID: 590542051}
   m_Layer: 10
   m_Name: Dinding (71)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6770,7 +6771,7 @@ GameObject:
   - component: {fileID: 596159125}
   m_Layer: 10
   m_Name: Dinding (41)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6854,7 +6855,7 @@ GameObject:
   - component: {fileID: 633377307}
   m_Layer: 10
   m_Name: Dinding (42)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7467,7 +7468,7 @@ GameObject:
   - component: {fileID: 719011786}
   m_Layer: 10
   m_Name: Dinding (2)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7551,7 +7552,7 @@ GameObject:
   - component: {fileID: 753695787}
   m_Layer: 10
   m_Name: Dinding (52)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7709,7 +7710,7 @@ GameObject:
   - component: {fileID: 773188165}
   m_Layer: 10
   m_Name: Dinding (49)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7793,7 +7794,7 @@ GameObject:
   - component: {fileID: 776100518}
   m_Layer: 10
   m_Name: Dinding (65)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8274,7 +8275,7 @@ GameObject:
   - component: {fileID: 820408505}
   m_Layer: 10
   m_Name: Dinding (25)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8556,7 +8557,7 @@ GameObject:
   - component: {fileID: 850130425}
   m_Layer: 10
   m_Name: Dinding (32)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8724,7 +8725,7 @@ GameObject:
   - component: {fileID: 861976298}
   m_Layer: 10
   m_Name: Dinding (50)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8808,7 +8809,7 @@ GameObject:
   - component: {fileID: 867642462}
   m_Layer: 10
   m_Name: Dinding (24)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8892,7 +8893,7 @@ GameObject:
   - component: {fileID: 867689284}
   m_Layer: 10
   m_Name: Dinding (38)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8979,7 +8980,7 @@ GameObject:
   - component: {fileID: 867855867}
   m_Layer: 0
   m_Name: Bazoo
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10025,7 +10026,7 @@ GameObject:
   - component: {fileID: 1030173505}
   m_Layer: 10
   m_Name: Dinding (67)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12079,7 +12080,7 @@ GameObject:
   - component: {fileID: 1142869988}
   m_Layer: 10
   m_Name: Dinding (46)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12163,7 +12164,7 @@ GameObject:
   - component: {fileID: 1171808978}
   m_Layer: 10
   m_Name: Dinding (45)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12458,7 +12459,7 @@ GameObject:
   - component: {fileID: 1194862962}
   m_Layer: 10
   m_Name: Dinding (8)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12542,7 +12543,7 @@ GameObject:
   - component: {fileID: 1230322019}
   m_Layer: 10
   m_Name: Dinding (61)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12626,11 +12627,11 @@ GameObject:
   - component: {fileID: 1231703295}
   m_Layer: 0
   m_Name: EnemyPatrol
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1231703295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12877,7 +12878,7 @@ GameObject:
   - component: {fileID: 1242575000}
   m_Layer: 10
   m_Name: Dinding (35)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13317,7 +13318,7 @@ GameObject:
   - component: {fileID: 1289330953}
   m_Layer: 0
   m_Name: Bazoo1
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13666,7 +13667,7 @@ GameObject:
   - component: {fileID: 1352040998}
   m_Layer: 10
   m_Name: Dinding (66)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13834,7 +13835,7 @@ GameObject:
   - component: {fileID: 1360302616}
   m_Layer: 10
   m_Name: Dinding (10)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13995,7 +13996,7 @@ GameObject:
   - component: {fileID: 1371161141}
   m_Layer: 10
   m_Name: Dinding (9)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14341,7 +14342,7 @@ GameObject:
   - component: {fileID: 1388396074}
   m_Layer: 10
   m_Name: Dinding (4)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14530,7 +14531,7 @@ GameObject:
   - component: {fileID: 1400929598}
   m_Layer: 10
   m_Name: Dinding (58)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14744,7 +14745,7 @@ GameObject:
   - component: {fileID: 1414176081}
   m_Layer: 0
   m_Name: Bazooo
-  m_TagString: Enemy
+  m_TagString: Boss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14777,7 +14778,7 @@ GameObject:
   - component: {fileID: 1421143657}
   m_Layer: 10
   m_Name: Dinding (5)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14861,7 +14862,7 @@ GameObject:
   - component: {fileID: 1426918295}
   m_Layer: 10
   m_Name: Dinding (37)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15229,7 +15230,7 @@ GameObject:
   - component: {fileID: 1442344339}
   m_Layer: 10
   m_Name: Dinding (12)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15418,7 +15419,7 @@ GameObject:
   - component: {fileID: 1461491055}
   m_Layer: 10
   m_Name: Dinding (6)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15665,7 +15666,7 @@ GameObject:
   - component: {fileID: 1508850468}
   m_Layer: 10
   m_Name: Dinding (1)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16487,6 +16488,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2019945293607347635, guid: 4e75c9f0d429e4e4d8d6c116aebc9585, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 2019945293659075455, guid: 4e75c9f0d429e4e4d8d6c116aebc9585, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.21
@@ -16590,6 +16595,10 @@ PrefabInstance:
     - target: {fileID: 2740033475718546396, guid: 4e75c9f0d429e4e4d8d6c116aebc9585, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2740033475718546396, guid: 4e75c9f0d429e4e4d8d6c116aebc9585, type: 3}
+      propertyPath: m_TagString
+      value: Boss
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e75c9f0d429e4e4d8d6c116aebc9585, type: 3}
@@ -17975,7 +17984,7 @@ GameObject:
   - component: {fileID: 1594678488}
   m_Layer: 10
   m_Name: Dinding (54)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18094,7 +18103,7 @@ GameObject:
   - component: {fileID: 1611299862}
   m_Layer: 10
   m_Name: Dinding
-  m_TagString: Enemy
+  m_TagString: ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18229,7 +18238,7 @@ GameObject:
   - component: {fileID: 1633146526}
   m_Layer: 10
   m_Name: Dinding (48)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18437,7 +18446,7 @@ GameObject:
   - component: {fileID: 1639946999}
   m_Layer: 10
   m_Name: Dinding (53)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18521,7 +18530,7 @@ GameObject:
   - component: {fileID: 1649324678}
   m_Layer: 10
   m_Name: Dinding (60)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18605,7 +18614,7 @@ GameObject:
   - component: {fileID: 1657782357}
   m_Layer: 10
   m_Name: Dinding (14)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18689,7 +18698,7 @@ GameObject:
   - component: {fileID: 1659826382}
   m_Layer: 10
   m_Name: Dinding (34)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18940,6 +18949,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4111806976974172, guid: dd6c6c0f2cff23a488ed09ad8ab8c2dc, type: 3}
   m_PrefabInstance: {fileID: 1677164647}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1704745190
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1704745191}
+  m_Layer: 0
+  m_Name: EMPT
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1704745191
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704745190}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 17.97, y: -22.42, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1707264433
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19059,7 +19099,7 @@ GameObject:
   - component: {fileID: 1717269961}
   m_Layer: 10
   m_Name: Dinding (21)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19741,7 +19781,7 @@ GameObject:
   - component: {fileID: 1800240229}
   m_Layer: 10
   m_Name: Dinding (13)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19825,7 +19865,7 @@ GameObject:
   - component: {fileID: 1812230302}
   m_Layer: 10
   m_Name: Dinding (20)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19909,7 +19949,7 @@ GameObject:
   - component: {fileID: 1812529368}
   m_Layer: 10
   m_Name: Dinding (30)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20394,7 +20434,7 @@ GameObject:
   - component: {fileID: 1887813674}
   m_Layer: 10
   m_Name: Dinding (22)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20919,7 +20959,7 @@ GameObject:
   - component: {fileID: 1929375909}
   m_Layer: 10
   m_Name: Dinding (47)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21282,7 +21322,7 @@ GameObject:
   - component: {fileID: 1955156100}
   m_Layer: 10
   m_Name: Dinding (57)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21501,7 +21541,7 @@ GameObject:
   - component: {fileID: 1966238387}
   m_Layer: 10
   m_Name: InvisibleBlock
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21561,7 +21601,7 @@ GameObject:
   - component: {fileID: 1971243538}
   m_Layer: 10
   m_Name: Dinding (62)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22431,7 +22471,7 @@ GameObject:
   - component: {fileID: 2046097334}
   m_Layer: 10
   m_Name: Dinding (31)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22599,7 +22639,7 @@ GameObject:
   - component: {fileID: 2084420394}
   m_Layer: 10
   m_Name: Dinding (28)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22816,7 +22856,7 @@ GameObject:
   - component: {fileID: 2091041535}
   m_Layer: 10
   m_Name: Dinding (19)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22989,7 +23029,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!61 &2108059401
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23140,7 +23180,7 @@ GameObject:
   - component: {fileID: 2122172778}
   m_Layer: 10
   m_Name: Dinding (23)
-  m_TagString: Enemy
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

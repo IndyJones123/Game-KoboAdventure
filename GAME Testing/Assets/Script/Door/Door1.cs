@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class Door1 : MonoBehaviour
 {
-    private bool open = true;
     private int nextSceneToLoad;
     // Start is called before the first frame update
     public void start()
@@ -15,7 +14,7 @@ public class Door1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (open == true)
+        if (collision.tag == "Player")
         {
             SceneManager.LoadScene("Dunia2");
         }    

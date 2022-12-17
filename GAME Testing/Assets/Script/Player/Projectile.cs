@@ -26,18 +26,22 @@ public class Projectile : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if (collision.tag == "Ground")
+        {
+            hit = true;
+            boxCollider.enabled = false;
+            anim.SetTrigger("explode");
+        }
 
         if (collision.tag == "Enemy")
         {
-            collision.GetComponent<Health>().TakeDamage(1);
             hit = true;
             boxCollider.enabled = false;
             anim.SetTrigger("explode");
         }
         if (collision.tag == "Boss")
         {
-            collision.GetComponent<BossHealth>().TakeDamage(1);
+            collision.GetComponent<HealthBos>().TakeDamage(1);
             hit = true;
             boxCollider.enabled = false;
             anim.SetTrigger("explode");
