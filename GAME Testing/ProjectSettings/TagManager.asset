@@ -16,6 +16,7 @@ TagManager:
   - ground
   - nextLine
   - Ckia
+  - spike
   layers:
   - Default
   - TransparentFX

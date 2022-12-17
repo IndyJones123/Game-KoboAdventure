@@ -9,7 +9,11 @@ public class SpikeHeal : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
+        {
             Debug.Log("test");
             collision.GetComponent<HealthPlayer>().PlayerTakeHeal(heal);
+            
+        }
     }
 }
+
