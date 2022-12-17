@@ -78,6 +78,7 @@ public class NPC : MonoBehaviour
             zeroText();
             TriggerBlok.SetActive(false);
             Rabbit.SetActive(true);
+            Destroy(gameObject);
         }
     }
 
