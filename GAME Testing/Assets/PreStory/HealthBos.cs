@@ -29,6 +29,7 @@ public class HealthBos : EnemyDamage
     public GameObject BazoBesarGlinding;
     public GameObject PintuRahasia;
     public GameObject RetryAndBackToMenu;
+     public GameObject On;
 
         void Start()
     {
@@ -83,6 +84,7 @@ public class HealthBos : EnemyDamage
         {
             SoundManagerScript.instance.PlaySound(mati);
             PintuRahasia.SetActive(false);
+            On.SetActive(true);
             anim.SetTrigger("die");
             Destroy(gameObject,2);
                 //Player

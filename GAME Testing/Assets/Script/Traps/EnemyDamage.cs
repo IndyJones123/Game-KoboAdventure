@@ -10,5 +10,7 @@ public class EnemyDamage : MonoBehaviour
     {
         if (collision.tag == "Player")
             collision.GetComponent<Health>().TakeDamage(damage);
+        if (collision.tag == "Boss")
+            collision.GetComponent<HealthBos>().TakeDamage(damage);
     }
 }

@@ -25,6 +25,21 @@ public class playerpush : MonoBehaviour {
 						box.GetComponent<FixedJoint2D> ().connectedBody = this.GetComponent<Rigidbody2D> ();
 						box.GetComponent<FixedJoint2D> ().enabled = true;
 						box.GetComponent<boxpulls> ().beingPushed = true;
+				}
+
+				else if (hit.collider != null && hit.collider.gameObject.tag == "Penculik" && Input.GetKeyDown (KeyCode.E)) {
+
+						box = hit.collider.gameObject;
+						box.GetComponent<FixedJoint2D> ().connectedBody = this.GetComponent<Rigidbody2D> ();
+						box.GetComponent<FixedJoint2D> ().enabled = true;
+						box.GetComponent<boxpulls> ().beingPushed = true;
+				}
+				else if (hit.collider != null && hit.collider.gameObject.tag == "Penculik2" && Input.GetKeyDown (KeyCode.E)) {
+
+						box = hit.collider.gameObject;
+						box.GetComponent<FixedJoint2D> ().connectedBody = this.GetComponent<Rigidbody2D> ();
+						box.GetComponent<FixedJoint2D> ().enabled = true;
+						box.GetComponent<boxpulls> ().beingPushed = true;
 
 				} else if (Input.GetKeyUp (KeyCode.E)) {
 						box.GetComponent<FixedJoint2D> ().enabled = false;

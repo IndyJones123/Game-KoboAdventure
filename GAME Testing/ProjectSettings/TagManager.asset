@@ -17,6 +17,8 @@ TagManager:
   - nextLine
   - Ckia
   - spike
+  - Organik
+  - NonOrganik
   layers:
   - Default
   - TransparentFX

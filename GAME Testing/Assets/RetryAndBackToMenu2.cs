@@ -14,7 +14,7 @@ public class RetryAndBackToMenu2 : MonoBehaviour
 
     public void Retry()
     {
-        SceneManager.LoadScene("PreStoryRestard");
+        SceneManager.LoadScene("PreStory");
     }
     public void MainMenu()
     {

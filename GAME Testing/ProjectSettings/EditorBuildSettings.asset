@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/EndlessGame.unity
     guid: e475a4ba9b91a82498302d365f6847b0
+  - enabled: 1
+    path: Assets/Levels/Ending.unity
+    guid: 276985ca07e40be49932633151234ba0
   m_configObjects: {}
