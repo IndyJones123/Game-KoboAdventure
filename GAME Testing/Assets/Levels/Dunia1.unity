@@ -1015,6 +1015,8 @@ MonoBehaviour:
   - 'Hello '
   - I am a human being
   contButton: {fileID: 860283440}
+  TriggerBlok: {fileID: 0}
+  Rabbit: {fileID: 0}
   wordSpeed: 0.06
   playerIsClose: 0
 --- !u!50 &325381900
@@ -1417,11 +1419,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172a2a48b6c12174381dec1eae8f24d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   startingHealth: 3
   Uek: {fileID: 0}
   mati: {fileID: 0}
+  sakitboss: {fileID: 0}
+  Rage: {fileID: 0}
+  Rage2: {fileID: 0}
   iFramesDuration: 0
   numberOfFlashes: 0
+  Bazo: {fileID: 0}
+  BazoBesar: {fileID: 0}
+  BazoBesarGlinding: {fileID: 0}
+  PintuRahasia: {fileID: 0}
+  RetryAndBackToMenu: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2601,6 +2612,7 @@ GameObject:
   - component: {fileID: 795017241}
   - component: {fileID: 795017244}
   - component: {fileID: 795017242}
+  - component: {fileID: 795017246}
   m_Layer: 8
   m_Name: Player
   m_TagString: Player
@@ -2801,11 +2813,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172a2a48b6c12174381dec1eae8f24d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0
   startingHealth: 3
   Uek: {fileID: 8300000, guid: 1c6950040ed583b4a905edf1a04e4ef5, type: 3}
   mati: {fileID: 8300000, guid: 21a9e66d4763c484f918ea392de5c1e9, type: 3}
+  sakitboss: {fileID: 0}
+  Rage: {fileID: 0}
+  Rage2: {fileID: 0}
   iFramesDuration: 2
   numberOfFlashes: 3
+  Bazo: {fileID: 0}
+  BazoBesar: {fileID: 0}
+  BazoBesarGlinding: {fileID: 0}
+  PintuRahasia: {fileID: 0}
+  RetryAndBackToMenu: {fileID: 0}
+--- !u!114 &795017246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 795017235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 024b7adc2f31af24d91764d7f1331c4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distance: 2.9
+  boxMask:
+    serializedVersion: 2
+    m_Bits: 65271
 --- !u!1 &810989742
 GameObject:
   m_ObjectHideFlags: 0
@@ -3792,9 +3829,12 @@ GameObject:
   - component: {fileID: 963740584}
   - component: {fileID: 963740587}
   - component: {fileID: 963740586}
+  - component: {fileID: 963740588}
+  - component: {fileID: 963740590}
+  - component: {fileID: 963740589}
   m_Layer: 6
   m_Name: BoxKayu
-  m_TagString: Untagged
+  m_TagString: pushable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3822,7 +3862,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963740583}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -3830,11 +3870,11 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: d63bbd153ada6ca4589914776fac1e28, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &963740587
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3887,6 +3927,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &963740588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963740583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea8a57e88d3d6640981d1982eaa909e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMass: 0
+  imovableMass: 0
+  beingPushed: 0
+  lastPos: {x: 0, y: 0, z: 0}
+  mode: 0
+  colliding: 0
+--- !u!255 &963740589
+FixedJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963740583}
+  m_Enabled: 0
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 1
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: -5.092197, y: -2.0864096}
+  m_DampingRatio: 0
+  m_Frequency: 0
+--- !u!61 &963740590
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963740583}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.77, y: 0.77}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.77, y: 0.77}
+  m_EdgeRadius: 0
 --- !u!1 &1034208177
 GameObject:
   m_ObjectHideFlags: 0

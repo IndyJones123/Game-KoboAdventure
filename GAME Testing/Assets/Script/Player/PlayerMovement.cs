@@ -57,7 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump(){
         //Vector2 Digunakan untuk memberikan vector pada karakter 2D apabila menggunakan Vector3 nantinya digunakan untuk karakter 3D dengan vektor y
-        SoundManagerScript.instance.PlaySound(loncat);
+        // SoundManagerScript.instance.PlaySound(loncat);
         body.velocity = new Vector2(body.velocity.x, speed);
         anim.SetTrigger("jump");
     }
