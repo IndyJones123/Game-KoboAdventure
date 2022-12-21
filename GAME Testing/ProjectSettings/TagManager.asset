@@ -5,6 +5,20 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Enemy
+  - NPC
+  - Ladder
+  - Teleporter
+  - Boss
+  - pushable
+  - Penculik
+  - Penculik2
+  - ground
+  - nextLine
+  - Ckia
+  - spike
+  - Organik
+  - NonOrganik
   layers:
   - Default
   - TransparentFX
@@ -15,13 +29,13 @@ TagManager:
   - Ground
   - Wall
   - Player
+  - NPC
   - Enemy
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ladder
+  - pushable
+  - Penculik
+  - Penculik2
+  - Ckia
   - 
   - 
   - 
@@ -42,6 +56,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Tangga
+    uniqueID: 916345123
+    locked: 0
   - name: Background
     uniqueID: 2720427219
     locked: 0
@@ -53,4 +70,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2498866695
+    locked: 0
+  - name: Enemy
+    uniqueID: 3761444151
     locked: 0
