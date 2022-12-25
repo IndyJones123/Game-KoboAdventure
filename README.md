@@ -1,3 +1,3 @@
 GAME The Savior Rain Shaman Kobo Kanaeru
 
-Made By Alfian Dorif Murtadlo(IndyJones)
+Made By Alfian Dorif Murtadlo(IndyJones) And Friends
